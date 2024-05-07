@@ -1,0 +1,30 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+      <h1></h1>
+      <p id="question1">1. PIM ย่อมาจากอะไร ?</p>
+      <button class="button" onclick="checkAnswer('a', 1)">A) พีไอเอ็ม</button>
+      <button class="button" onclick="checkAnswer('b', 1)">B) ปิ๋ม</button>
+      <button class="button" onclick="checkAnswer('c', 1)">C) พิม</button>
+      <button class="button" onclick="checkAnswer('d', 1)">D) ภีม</button>
+      <p id="result1" class="result"></p>
+
+      <h1></h1>
+      <p id="question2">2. CPRAM สำนักงานใหญ่อยู่อำเภออะไร ?</p>
+      <button class="button" onclick="checkAnswer('a', 2)">A) อำเภอ ลาดกระบัง</button>
+      <button class="button" onclick="checkAnswer('b', 2)">B) อำเภอ ลาดหลุมแก้ว</button>
+      <button class="button" onclick="checkAnswer('c', 2)">C) อำเภอ ศรีราชา</button>
+      <button class="button" onclick="checkAnswer('d', 2)">D) อำเภอ เมืองขอนแก่น</button>
+      <p id="result2" class="result" ></p>
+
+      <h2 id="sumresult"> <b id="score" >0</b> / 2 คะแนน</h2>
+  </div>
+
+
+  <script src="script.js"></script>
+</body></html>
